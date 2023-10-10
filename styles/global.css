@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.liii {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    /* margin: 3px 4px; */
+}
+
+
+
+.img_box {
+    display: flex;
+}
+
+.img_box img {
+    margin: 0px 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.price::before {
+    content: "＄";
+}
+
+.price span {
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
